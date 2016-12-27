@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		910FAD7B1E0523C200E875E4 /* RecordingSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910FAD7A1E0523C200E875E4 /* RecordingSoundsViewController.swift */; };
+		910FAD7D1E07D57800E875E4 /* ConversationBetweenTwoPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910FAD7C1E07D57800E875E4 /* ConversationBetweenTwoPeople.swift */; };
+		917629371E0007280062519B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917629361E0007280062519B /* AppDelegate.swift */; };
+		917629391E0007280062519B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917629381E0007280062519B /* ViewController.swift */; };
+		9176293C1E0007280062519B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9176293A1E0007280062519B /* Main.storyboard */; };
+		9176293E1E0007280062519B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9176293D1E0007280062519B /* Assets.xcassets */; };
+		917629411E0007280062519B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9176293F1E0007280062519B /* LaunchScreen.storyboard */; };
+		9176294C1E0007280062519B /* JabberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9176294B1E0007280062519B /* JabberTests.swift */; };
+		917629571E0007280062519B /* JabberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917629561E0007280062519B /* JabberUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		917629481E0007280062519B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9176292B1E0007270062519B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 917629321E0007270062519B;
+			remoteInfo = Jabber;
+		};
+		917629531E0007280062519B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9176292B1E0007270062519B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 917629321E0007270062519B;
+			remoteInfo = Jabber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		910FAD7A1E0523C200E875E4 /* RecordingSoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingSoundsViewController.swift; sourceTree = "<group>"; };
+		910FAD7C1E07D57800E875E4 /* ConversationBetweenTwoPeople.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationBetweenTwoPeople.swift; sourceTree = "<group>"; };
+		917629331E0007280062519B /* Jabber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jabber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		917629361E0007280062519B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		917629381E0007280062519B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9176293B1E0007280062519B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9176293D1E0007280062519B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		917629401E0007280062519B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		917629421E0007280062519B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		917629471E0007280062519B /* JabberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JabberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9176294B1E0007280062519B /* JabberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JabberTests.swift; sourceTree = "<group>"; };
+		9176294D1E0007280062519B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		917629521E0007280062519B /* JabberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JabberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		917629561E0007280062519B /* JabberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JabberUITests.swift; sourceTree = "<group>"; };
+		917629581E0007280062519B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		917629301E0007270062519B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917629441E0007280062519B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9176294F1E0007280062519B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9176292A1E0007270062519B = {
+			isa = PBXGroup;
+			children = (
+				917629351E0007280062519B /* Jabber */,
+				9176294A1E0007280062519B /* JabberTests */,
+				917629551E0007280062519B /* JabberUITests */,
+				917629341E0007280062519B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		917629341E0007280062519B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				917629331E0007280062519B /* Jabber.app */,
+				917629471E0007280062519B /* JabberTests.xctest */,
+				917629521E0007280062519B /* JabberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		917629351E0007280062519B /* Jabber */ = {
+			isa = PBXGroup;
+			children = (
+				917629361E0007280062519B /* AppDelegate.swift */,
+				917629381E0007280062519B /* ViewController.swift */,
+				9176293A1E0007280062519B /* Main.storyboard */,
+				9176293D1E0007280062519B /* Assets.xcassets */,
+				9176293F1E0007280062519B /* LaunchScreen.storyboard */,
+				917629421E0007280062519B /* Info.plist */,
+				910FAD7A1E0523C200E875E4 /* RecordingSoundsViewController.swift */,
+				910FAD7C1E07D57800E875E4 /* ConversationBetweenTwoPeople.swift */,
+			);
+			path = Jabber;
+			sourceTree = "<group>";
+		};
+		9176294A1E0007280062519B /* JabberTests */ = {
+			isa = PBXGroup;
+			children = (
+				9176294B1E0007280062519B /* JabberTests.swift */,
+				9176294D1E0007280062519B /* Info.plist */,
+			);
+			path = JabberTests;
+			sourceTree = "<group>";
+		};
+		917629551E0007280062519B /* JabberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				917629561E0007280062519B /* JabberUITests.swift */,
+				917629581E0007280062519B /* Info.plist */,
+			);
+			path = JabberUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		917629321E0007270062519B /* Jabber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9176295B1E0007280062519B /* Build configuration list for PBXNativeTarget "Jabber" */;
+			buildPhases = (
+				9176292F1E0007270062519B /* Sources */,
+				917629301E0007270062519B /* Frameworks */,
+				917629311E0007270062519B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jabber;
+			productName = Jabber;
+			productReference = 917629331E0007280062519B /* Jabber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		917629461E0007280062519B /* JabberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9176295E1E0007280062519B /* Build configuration list for PBXNativeTarget "JabberTests" */;
+			buildPhases = (
+				917629431E0007280062519B /* Sources */,
+				917629441E0007280062519B /* Frameworks */,
+				917629451E0007280062519B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				917629491E0007280062519B /* PBXTargetDependency */,
+			);
+			name = JabberTests;
+			productName = JabberTests;
+			productReference = 917629471E0007280062519B /* JabberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		917629511E0007280062519B /* JabberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 917629611E0007280062519B /* Build configuration list for PBXNativeTarget "JabberUITests" */;
+			buildPhases = (
+				9176294E1E0007280062519B /* Sources */,
+				9176294F1E0007280062519B /* Frameworks */,
+				917629501E0007280062519B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				917629541E0007280062519B /* PBXTargetDependency */,
+			);
+			name = JabberUITests;
+			productName = JabberUITests;
+			productReference = 917629521E0007280062519B /* JabberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9176292B1E0007270062519B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Martin Chibwe";
+				TargetAttributes = {
+					917629321E0007270062519B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Z59FNT2JYY;
+						ProvisioningStyle = Automatic;
+					};
+					917629461E0007280062519B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Z59FNT2JYY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 917629321E0007270062519B;
+					};
+					917629511E0007280062519B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Z59FNT2JYY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 917629321E0007270062519B;
+					};
+				};
+			};
+			buildConfigurationList = 9176292E1E0007270062519B /* Build configuration list for PBXProject "Jabber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9176292A1E0007270062519B;
+			productRefGroup = 917629341E0007280062519B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				917629321E0007270062519B /* Jabber */,
+				917629461E0007280062519B /* JabberTests */,
+				917629511E0007280062519B /* JabberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		917629311E0007270062519B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917629411E0007280062519B /* LaunchScreen.storyboard in Resources */,
+				9176293E1E0007280062519B /* Assets.xcassets in Resources */,
+				9176293C1E0007280062519B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917629451E0007280062519B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917629501E0007280062519B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9176292F1E0007270062519B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917629391E0007280062519B /* ViewController.swift in Sources */,
+				910FAD7D1E07D57800E875E4 /* ConversationBetweenTwoPeople.swift in Sources */,
+				917629371E0007280062519B /* AppDelegate.swift in Sources */,
+				910FAD7B1E0523C200E875E4 /* RecordingSoundsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917629431E0007280062519B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9176294C1E0007280062519B /* JabberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9176294E1E0007280062519B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917629571E0007280062519B /* JabberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		917629491E0007280062519B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 917629321E0007270062519B /* Jabber */;
+			targetProxy = 917629481E0007280062519B /* PBXContainerItemProxy */;
+		};
+		917629541E0007280062519B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 917629321E0007270062519B /* Jabber */;
+			targetProxy = 917629531E0007280062519B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9176293A1E0007280062519B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9176293B1E0007280062519B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9176293F1E0007280062519B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				917629401E0007280062519B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		917629591E0007280062519B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9176295A1E0007280062519B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9176295C1E0007280062519B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z59FNT2JYY;
+				INFOPLIST_FILE = Jabber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin-Chibwe.Jabber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9176295D1E0007280062519B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z59FNT2JYY;
+				INFOPLIST_FILE = Jabber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin-Chibwe.Jabber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9176295F1E0007280062519B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z59FNT2JYY;
+				INFOPLIST_FILE = JabberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin-Chibwe.JabberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jabber.app/Jabber";
+			};
+			name = Debug;
+		};
+		917629601E0007280062519B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z59FNT2JYY;
+				INFOPLIST_FILE = JabberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin-Chibwe.JabberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jabber.app/Jabber";
+			};
+			name = Release;
+		};
+		917629621E0007280062519B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z59FNT2JYY;
+				INFOPLIST_FILE = JabberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin-Chibwe.JabberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jabber;
+			};
+			name = Debug;
+		};
+		917629631E0007280062519B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z59FNT2JYY;
+				INFOPLIST_FILE = JabberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin-Chibwe.JabberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jabber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9176292E1E0007270062519B /* Build configuration list for PBXProject "Jabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917629591E0007280062519B /* Debug */,
+				9176295A1E0007280062519B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9176295B1E0007280062519B /* Build configuration list for PBXNativeTarget "Jabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9176295C1E0007280062519B /* Debug */,
+				9176295D1E0007280062519B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9176295E1E0007280062519B /* Build configuration list for PBXNativeTarget "JabberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9176295F1E0007280062519B /* Debug */,
+				917629601E0007280062519B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		917629611E0007280062519B /* Build configuration list for PBXNativeTarget "JabberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917629621E0007280062519B /* Debug */,
+				917629631E0007280062519B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9176292B1E0007270062519B /* Project object */;
+}
